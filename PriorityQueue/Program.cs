@@ -12,14 +12,14 @@ namespace PriorityQueue
         static void Main(string[] args)
         {
             var queue = new BinaryHeap();
-            queue.Add(20);
-            queue.Add(15);
-            queue.Add(11);
-            queue.Add(10);
-            queue.Add(7);
-            queue.Add(6);
-            queue.Add(3);
-            queue.Add(16);
+            queue.Enqueue(20);
+            queue.Enqueue(15);
+            queue.Enqueue(11);
+            queue.Enqueue(10);
+            queue.Enqueue(7);
+            queue.Enqueue(6);
+            queue.Enqueue(3);
+            queue.Enqueue(16);
 
             foreach(var item in queue)
             {
